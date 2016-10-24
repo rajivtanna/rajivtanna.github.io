@@ -1,0 +1,33 @@
+# Site settings
+email: rajiv.k.tanna@gmail.com
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page-:num"
+google_analytics:
+
+# SEO settings
+title: "Machine Time"
+description: "A simple blog about my adventures with data, machine learning and AI techniques"
+url: "rajivtanna.github.io"
+twitter_username: "@tanna_rk"
+default_img: http://cdn.wallpapersafari.com/21/30/AvFWx0.jpg
+
+# Profile settings
+name: Rajiv Tanna
+profile_img: https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg
+profile: "Data Scientist, Entrepeneur, Husband and Father. The next two years is going to be magnificent for mankind. I want to help shape it using the power of computers and morals for humans."
+social:
+  github: https://github.com/rajivtanna
+
+# Build settings
+include: ["_categories"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
